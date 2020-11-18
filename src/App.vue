@@ -21,6 +21,7 @@ export default {
 html,
 body {
   height: 100%;
+  margin:0;
 }
 
 #app {
@@ -29,6 +30,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: black;
   color: #ffffff;
+  margin: 0;
 }
 
 .btn {

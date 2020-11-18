@@ -8,13 +8,13 @@ export const Statics = {
 
 export class PeerConnector {
   constructor() {
-    this.statusMessage = "starting...";
+    this.statusMessage = "Connecting...";
   }
 
   Init(localId) {
     this._localId = localId;
     this.peer = new Peer(localId);
-    console.log("initiated eith localId: " + localId);
+    console.log("Initiated with localId: " + localId);
   }
 
   ChangeMessage() {

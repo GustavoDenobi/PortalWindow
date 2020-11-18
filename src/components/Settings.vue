@@ -54,6 +54,6 @@ export default {
 
 <style scoped>
 .mainDiv {
-  background: rgb(0, 0, 50);
+  background: rgb(128, 128, 128);
 }
 </style>
